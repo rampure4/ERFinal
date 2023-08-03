@@ -22,10 +22,7 @@ public class PuzzleManager : MonoBehaviour
             Debug.Log("You Win");
             win.Invoke();
         }
-
-      
     }
-
 
     public void purpleATM()
     {
@@ -55,14 +52,10 @@ public class PuzzleManager : MonoBehaviour
                 purpleCounter = 0;
                 break;
         }
-
-
-
-
     }
+
     public void coralATM()
     {
-
         coralCounter++;
         switch (coralCounter)
         {
@@ -88,10 +81,6 @@ public class PuzzleManager : MonoBehaviour
                 coralCounter = 0;
                 break;
         }
-
-
-
-
     }
     public void blueATM()
     {
@@ -121,9 +110,5 @@ public class PuzzleManager : MonoBehaviour
                 blueCounter = 0;
                 break;
         }
-
-
-
-
     }
 }
